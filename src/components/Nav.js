@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import { Link } from 'react-scroll'
 import resume from "../assets/Pavan resume.pdf"
 import {FaBars,FaTimes} from "react-icons/fa"
+import{MdDeveloperMode} from "react-icons/md"
 
 const Nav = () => {
  const[nav,setNav]= useState(false);
@@ -10,8 +11,8 @@ const Nav = () => {
   return (
     <nav className="bg-gray-900 w-full sticky z-10 top-0 font-Oswald">
     <div className='container mx-auto py-5 flex justify-between text-white'>
-     <div className='items-center '>
-        <img src='' alt=""/>
+     <div className='items-center flex '>
+       <MdDeveloperMode size={30} className="text-gray-300"/>
         <span className='text-gray-400  text-xl font-semibold text-center cursor-pointer hover:text-white '>Pavan kumar</span>
      </div>
       <ul className='hidden md:flex space-x-10 text-gray-400 text-md items-center font-semibold'>
