@@ -13,6 +13,7 @@ import aws from "../assets/aws.png"
 import heroku from "../assets/heroku.png"
 import netlify from "../assets/netlify.png"
 import git from "../assets/git.png"
+import mysql from "../assets/mysql.png"
 
 const Skills = () => {
   return (
@@ -61,6 +62,9 @@ const Skills = () => {
              </div>
              <div className='  w-[100px] h-[100px]   lg:w-[300px] lg:h-[200px] bg-gray-900 object-cover shadow-xl shadow-black rounded-xl   my-auto '>
                 <img src={git} alt="..."className='w-[60px] lg:w-[140px] mx-auto lg:mt-8 '/>
+             </div>
+             <div className='  w-[100px] h-[100px]   lg:w-[300px] lg:h-[200px] bg-gray-900 object-cover shadow-xl shadow-black rounded-xl   my-auto '>
+                <img src={mysql} alt="..."className='w-[60px] lg:w-[140px] mx-auto lg:mt-8 '/>
              </div>
            </div>
         </div>
