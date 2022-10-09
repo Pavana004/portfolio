@@ -18,7 +18,7 @@ const Projects = () => {
 
                         <h3>Project type : Web Application</h3>
 
-                        <h3 >Project Description : OOT Platform here you can access different type of field like Movie,Music,Videos,Books.This project made by MERN stack.</h3>
+                        <h3 >Project Description : OTT Platform here you can access different type of field like Movie,Music,Videos,Books.This project made by MERN stack.</h3>
 
                         <button className='bg-gray-900 shadow-xl shadow-black font-medium text-xl hover:bg-white hover:text-black rounded-xl w-20 h-10  transform hover:scale-90 transition ease-out mx-auto '>
                             <a href='https://multiverseoot.netlify.app/' target="_blank" rel="noreferrer">Start Now</a>
@@ -34,7 +34,7 @@ const Projects = () => {
                         <h3>Project name : Multiverse Admin</h3>
                         <h3>Project type : Web Application</h3>
 
-                        <h3>Project Description : Here you can access Upload Movie,Music,Videos,Books data for this project.This project made by MERN stack</h3>
+                        <h3>Project Description : Here you can Upload Movie,Music,Videos,Books data for this project.This project made by MERN stack</h3>
 
                         <button className='bg-gray-900 shadow-xl shadow-black font-medium text-xl hover:bg-white hover:text-black rounded-xl w-20 h-10  transform hover:scale-90 transition ease-out mx-auto '>
                         <a href='https://multiverseadmin.netlify.app/' target="_blank" rel="noreferrer">Start Now</a>
