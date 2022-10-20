@@ -5,6 +5,7 @@ import Abouts from './container/Abouts'
 import Skills from './container/sk'
 import Contacts from './container/Contacts'
 import Footer from './container/Footer'
+import Certification from './container/certification'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
    <Abouts/>
    <Skills/>
    <Projects/>
+   <Certification/>
    <Contacts/>
    <Footer/>
    </>

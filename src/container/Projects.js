@@ -25,7 +25,7 @@ const Projects = () => {
                         </button>
                     </div>
                 </div>
-                <div className='w-9/12 h-fit bg-gray-900 rounded-2xl shadow-2xl justify-between shadow-black flex top-10 mx-auto mt-20 text-white font-Oswald 
+                <div className='w-9/12 h-fit bg-gray-900 rounded-2xl shadow-2xl justify-between shadow-black flex top-10 mx-auto mt-20  text-white font-Oswald 
                 transform hover:scale-90 transition ease-in duration-500 cursor-pointer  '>
                     <div className=' w-9/12 '>
                         <img src={Admin} alt='' className='h-full  lg:h-[250px] xl:h-[300px] w-full object-cover rounded-2xl' />
