@@ -1,6 +1,8 @@
 import React from 'react'
 import Dp from "../assets/dp.jpg"
-import Admin from "../assets/admin.png"
+import Admin from "../assets/admin.png";
+import youtube from "../assets/youtube.png";
+import ecom from "../assets/e-com.png";
 
 
 const Projects = () => {
@@ -38,6 +40,38 @@ const Projects = () => {
 
                         <button className='bg-gray-900 shadow-xl shadow-black font-medium text-xl hover:bg-white hover:text-black rounded-xl w-20 h-10  transform hover:scale-90 transition ease-out mx-auto '>
                         <a href='https://multiverseadmin.netlify.app/' target="_blank" rel="noreferrer">Start Now</a>
+                        </button>
+                    </div>
+                </div>
+                <div className='w-9/12 h-fit bg-gray-900 rounded-2xl shadow-2xl justify-between shadow-black flex top-10 mx-auto mt-20  text-white font-Oswald 
+                transform hover:scale-90 transition ease-in duration-500 cursor-pointer  '>
+                    <div className=' w-9/12 '>
+                        <img src={youtube} alt='' className='h-full  lg:h-[250px] xl:h-[300px] w-full object-cover rounded-2xl' />
+                    </div>
+                    <div className='w-8/12  text-center text-sm lg:text-lg xl:text-xl absoulte top-0 bottom-0 mx-auto font-Oswald font-semibold lg:space-y-4 xl:space-y-6 px-3  '>
+                        <h3>Project name : Youtube UI</h3>
+                        <h3>Project type : Web Application</h3>
+
+                        <h3>Project Description : Here I Clone Youtube UI,Where as it use for user experince</h3>
+
+                        <button className='bg-gray-900 shadow-xl shadow-black font-medium text-xl hover:bg-white hover:text-black rounded-xl w-20 h-10  transform hover:scale-90 transition ease-out mx-auto '>
+                        <a href='https://strong-bonbon-be34f5.netlify.app/' target="_blank" rel="noreferrer">Start Now</a>
+                        </button>
+                    </div>
+                </div>
+                <div className='w-9/12 h-fit bg-gray-900 rounded-2xl shadow-2xl justify-between shadow-black flex top-10 mx-auto mt-20  text-white font-Oswald 
+                transform hover:scale-90 transition ease-in duration-500 cursor-pointer  '>
+                    <div className=' w-9/12 '>
+                        <img src={ecom} alt='' className='h-full  lg:h-[250px] xl:h-[300px] w-full object-cover rounded-2xl' />
+                    </div>
+                    <div className='w-8/12  text-center text-sm lg:text-lg xl:text-xl absoulte top-0 bottom-0 mx-auto font-Oswald font-semibold lg:space-y-4 xl:space-y-6 px-3  '>
+                        <h3>Project name : E-Commerce UI</h3>
+                        <h3>Project type : Web Application</h3>
+
+                        <h3>Project Description : Here I Clone product shopping UI,Where as it use for user experince</h3>
+
+                        <button className='bg-gray-900 shadow-xl shadow-black font-medium text-xl hover:bg-white hover:text-black rounded-xl w-20 h-10  transform hover:scale-90 transition ease-out mx-auto '>
+                        <a href='https://whimsical-kelpie-4b8f7d.netlify.app/' target="_blank" rel="noreferrer">Start Now</a>
                         </button>
                     </div>
                 </div>
