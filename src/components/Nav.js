@@ -29,7 +29,7 @@ const Nav = () => {
             <Link to='contact'smooth duration={500}>CONTACT</Link>
         </li>
         <li className='cursor-pointer hover:text-white'>
-            <a href={resume} download>RESUME</a>
+            <a href="https://drive.google.com/file/d/1joSYqwzmPdFyHExvHMrtVQT5aOA94i6W/view?usp=sharing" download>RESUME</a>
         </li>
       </ul>
        <div onClick={()=>setNav(!nav)} className='cursor-pointer pr-4 text-gray-400 md:hidden' >
