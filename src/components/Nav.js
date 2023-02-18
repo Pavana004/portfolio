@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 import { Link } from 'react-scroll'
-import resume from "../assets/Pavan resume.pdf"
 import {FaBars,FaTimes} from "react-icons/fa"
 import{MdDeveloperMode} from "react-icons/md"
 
