@@ -28,7 +28,7 @@ const Nav = () => {
             <Link to='contact'smooth duration={500}>CONTACT</Link>
         </li>
         <li className='cursor-pointer hover:text-white'>
-            <a href="https://drive.google.com/file/d/1joSYqwzmPdFyHExvHMrtVQT5aOA94i6W/view?usp=sharing" download>RESUME</a>
+            <a href="https://drive.google.com/file/d/1DtFhn8diUbQrCCyu_spQa6S4j2DW8ICf/view?usp=sharing" download>RESUME</a>
         </li>
       </ul>
        <div onClick={()=>setNav(!nav)} className='cursor-pointer pr-4 text-gray-400 md:hidden' >
@@ -52,7 +52,7 @@ const Nav = () => {
             <Link to='contact'smooth duration={500}>CONTACT</Link>
         </li>
         <li className='cursor-pointer hover:text-white'>
-            <a href="https://drive.google.com/file/d/1joSYqwzmPdFyHExvHMrtVQT5aOA94i6W/view?usp=sharing" download>RESUME</a>
+            <a href="https://drive.google.com/file/d/1DtFhn8diUbQrCCyu_spQa6S4j2DW8ICf/view?usp=sharing" download>RESUME</a>
         </li>
        
        <FaTimes size={25} onClick={()=>setNav(false)} className="bg-gray-800 rounded-xl text-black"/>
