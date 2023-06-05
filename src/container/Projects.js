@@ -5,7 +5,7 @@ import youtube from "../assets/youtude.png";
 import ecom from "../assets/e-com.png";
 import code from "../assets/codeparva.png";
 import map from "../assets/map.jpg";
-// import add from "../assets/add.jpg";
+import add from "../assets/add.jpg";
 
 
 const Projects = () => {
@@ -78,7 +78,7 @@ const Projects = () => {
                         </button>
                     </div>
                 </div>
-                {/* <div className='w-9/12 h-fit bg-gray-900 rounded-2xl shadow-2xl justify-between shadow-black flex top-10 mx-auto mt-20  text-white font-Oswald 
+                <div className='w-9/12 h-fit bg-gray-900 rounded-2xl shadow-2xl justify-between shadow-black flex top-10 mx-auto mt-20  text-white font-Oswald 
                 transform hover:scale-90 transition ease-in duration-500 cursor-pointer  '>
                     <div className=' w-9/12 '>
                         <img src={add} alt='' className='h-full  lg:h-[250px] xl:h-[300px] w-full object-cover rounded-2xl' />
@@ -93,7 +93,7 @@ const Projects = () => {
                         <a href='https://splendid-marzipan-c7b64f.netlify.app/' target="_blank" rel="noreferrer">Start Now</a>
                         </button>
                     </div>
-                </div> */}
+                </div>
                 <div className='w-9/12 h-fit bg-gray-900 rounded-2xl shadow-2xl justify-between shadow-black flex top-10 mx-auto mt-20  text-white font-Oswald 
                 transform hover:scale-90 transition ease-in duration-500 cursor-pointer  '>
                     <div className=' w-9/12 '>
