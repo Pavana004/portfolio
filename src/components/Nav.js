@@ -52,7 +52,7 @@ const Nav = () => {
             <Link to='contact'smooth duration={500}>CONTACT</Link>
         </li>
         <li className='cursor-pointer hover:text-white'>
-            <a href="https://drive.google.com/file/d/1NKVeVteW_mK-jtIaiiVaywn00CC_qajV/view?usp=sharing" download>RESUME</a>
+            <a href="https://drive.google.com/file/d/1mPi0ZzbxrdS-u3q5G2XVozWGd0AW9ALD/view?usp=sharing" download>RESUME</a>
         </li>
        
        <FaTimes size={25} onClick={()=>setNav(false)} className="bg-gray-800 rounded-xl text-black"/>
